@@ -1,0 +1,122 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Resume Layout */
+.resume-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Section */
+.left-section {
+    flex: 1;
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+}
+
+.left-section h2 {
+    color: #1abc9c;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #1abc9c;
+    padding-bottom: 5px;
+}
+
+.profile-picture {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.left-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.left-section ul li {
+    margin: 10px 0;
+}
+
+/* Right Section */
+.right-section {
+    flex: 2;
+    padding: 20px;
+}
+
+.right-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #34495e;
+    text-align: center;
+}
+
+.right-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #34495e;
+    padding-bottom: 5px;
+    color: #34495e;
+}
+
+.right-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.right-section ul li {
+    margin: 10px 0;
+}
+.button{
+    background-color: #34495e;
+    color: white;
+    border: none;
+    padding: 50px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button-hover{
+    background-color: #05080a;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    font-size: 1.2em;
+    color: #1abc9c;
+}
+
+.job span {
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .resume-container {
+        flex-direction: column;
+    }
+
+    .right-section h1 {
+        font-size: 2em;
+    }
+}
